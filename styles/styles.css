@@ -1,0 +1,124 @@
+*{
+padding: 0px;
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 45px 15px 120px;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+}
+.menu{
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 20px;
+    font-weight: bold;
+}
+.menu a{
+    text-decoration: none;
+}
+.separador{
+    border-left: thick solid white;
+    border-width:1px;
+   }
+}
+
+/* primera seccion, azul*/
+.primera-seccion a, p{
+    font-size: 10px;
+
+}
+.primera-seccion a{
+    text-decoration: underline white;
+    color:white;
+} 
+
+.primera-seccion{
+    background-color: #1d75de;
+    padding: 80px 40px 120px 120px;
+    color: white;
+    line-height: 70px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.button {
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 40px;
+    font-weight: bold;
+  }
+
+.firstButton{
+    background-color: black;
+    border: none;
+}
+.secondButton{
+    background-color: #1d75de;
+    border-color: white;
+    border: 2px solid;
+}
+
+.firstButton:hover, 
+.secondButton:hover{
+    scale: 1.1;
+}
+
+
+a:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+/* segunda seccion 4 imagenes*/
+.premium-section{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.premium-section article{
+    width: 20%;
+}
+
+.img-section{
+    width: 150px;
+}
+
+h2.segunda-seccion{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+article{
+    line-height: 30px;
+}
+
+/* tercera seccion, 4 cajas*/
+
+.tercera-seccion{
+    background-color: #efefef;
+    text-align: center;
+    padding: 80px;
+}
+
+
+

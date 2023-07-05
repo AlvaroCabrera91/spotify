@@ -113,7 +113,7 @@ h2.segunda-seccion{
 article{
     line-height: 30px;
 }
-article p{
+.premium-section article p{
     font-size: 12px;
 }
 article h3{
@@ -130,5 +130,98 @@ article h3{
 }
 
 .tercera-seccion h2{
-    font-size: 30px;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.text {
+    font-size: 20px;
+    margin-bottom: 30px;
+    grid-row: 1 / auto;
+}
+
+.check{
+    width: 20px;
+}
+
+.tarjetas{
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    justify-content: center;
+    
+}
+.tercera-seccion ul {
+    list-style: none;
+    height: 250px;
+}
+
+.tarjetas article{
+    width: 20%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 1px 10px 0.1px;
+    text-align: left;
+    padding: 10px;
+    height: 600px;
+}
+
+.tarjetas h3{
+    font-size: 25px;
+}
+.tarjetas article p{
+    font-size: 15px;
+}
+
+span{
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0px 4px 10px 0px;
+    color: white;
+    background-color: rgb(13, 114, 234);
+}
+
+.lastbutton{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.enlace{
+    text-decoration: underline black;
+}
+
+article .fintarjeta p{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.fintarjeta{
+    height: 200px;
+}
+
+/*footer*/
+
+.footer{
+    background-color: black;
+    height: 650px;
+}
+.columnfooter{
+    color:white;
+}
+.column ul{
+    list-style: none;
+}
+.columnfooter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo2{
+    width: 40px;
+    color:white;
+    border-radius: 30px;
+    border: 20px white;
 }

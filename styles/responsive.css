@@ -1,0 +1,39 @@
+
+@media (max-width: 480px) { /* cambio de menu por ha,burguesa*/
+    .menu{
+        display: none;
+    }
+    .header{
+        padding: 15px 20px 15px 20px;
+    }
+    .menubur{
+        display: block;
+        background-color: white;
+    }
+    .menubur:hover{
+        background-color: grey;
+    }
+    .primera-seccion{
+        display: none;
+    }
+    .premium-section{
+        flex-direction: column;
+    }
+    .premium-section article{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
+
+@media (min-width: 481px) { /* cambio de menu por ha,burguesa*/
+    .menubur{
+        display: none;
+    }
+
+}
+
+

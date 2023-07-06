@@ -204,24 +204,53 @@ article .fintarjeta p{
 /*footer*/
 
 .footer{
+    height: 550px;
     background-color: black;
-    height: 650px;
 }
-.columnfooter{
-    color:white;
-}
-.column ul{
-    list-style: none;
-}
-.columnfooter{
+.pie{
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    color: white;
+    padding-top: 75px;
+    gap: 10px;
+}
+.column ul, p{
+    list-style: none;
+    font-size: 15px;
 }
 .logo2{
     width: 40px;
     color:white;
     border-radius: 30px;
     border: 20px white;
+}
+
+.footer article{
+    width: 18%;
+    line-height: 45px;
+}
+.logosfooter{
+    text-align: right;
+}
+
+.footer p{
+    color:#919496;
+    font-weight: bold;
+}
+
+.menuabajo a{
+    color: #919496;
+    font-size: 12px;
+}
+
+.menuabajo a:hover{
+    color: #1ed760;
+}
+
+.menuabajo{
+    text-align: center;
+    margin-top: 80px;
+
+    margin-left: 20px;
 }
